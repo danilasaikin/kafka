@@ -1,5 +1,6 @@
 package com.example.kafka.configuration;
 
+import com.example.kafka.listener.CustomConsumerRebalanceListener;
 import com.example.kafka.model.KafkaMessage;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.clients.consumer.ConsumerConfig;

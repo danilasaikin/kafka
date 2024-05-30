@@ -17,7 +17,7 @@ public class KafkaController {
 
     private final KafkaTemplate<String, KafkaMessage> kafkaTemplate;
 
-    private KafkaMessageService kafkaMessageService;
+    private  final KafkaMessageService kafkaMessageService;
 
     @PostMapping("/send")
     public ResponseEntity<String> sendMessage(@RequestBody KafkaMessage message){
